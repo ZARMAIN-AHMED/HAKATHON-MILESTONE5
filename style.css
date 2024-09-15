@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+   background-color: #ffffff;
+   background-image: radial-gradient(rgb(166, 226, 241),rgb(229, 252, 250),rgb(255, 255, 255));
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
+    box-shadow: 0px 4px 8px #746e6e;
+    background-image: radial-gradient(rgb(104, 212, 255),rgb(255, 255, 255));
+    
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-image: radial-gradient(rgb(130, 239, 243), rgb(147, 218, 247),rgb(145, 231, 253), rgb(230, 244, 247));
+    border-radius: 8px;
+    box-shadow: 6px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size:22px;
+}
+
+fieldset {
+    border: 2px solid rgb(8, 17, 22);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0fbff;
+    background-image: radial-gradient(rgb(149, 236, 252),rgb(253, 253, 253));
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(rgb(76, 127, 221), rgb(53, 209, 236));
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px #000000;
+}
+
+button:hover {
+    background-image:linear-gradient(rgb(63, 215, 241),rgb(0, 98, 128));
+}
+
+div {
+    max-width: 600px;
+    margin:auto;
+    
+    border-radius: 8px;
+    box-shadow: 9px 8px 8px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow:auto;
+    background-color: rgba(207, 243, 253, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:25px;
+    background-image: radial-gradient(skyblue,rgb(253, 253, 253));
+    
+    overflow-x: auto; /* Adds horizontal scroll if content overflows */
+    word-wrap: break-word; /* Breaks long words and prevents overflow */
+    white-space: normal;
+    
+    outline: none;
+    
+}
